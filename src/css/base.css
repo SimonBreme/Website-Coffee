@@ -1,8 +1,8 @@
 body {
-  background: grey;
+  background: #9da37a;
 
   @media (min-width: 768px) {
-    color: red;
+    color: #e2dea2;
   }
 }
 
@@ -11,7 +11,7 @@ main {
   max-width: 1440px;
 
   & div {
-    color: yellow;
+    color: #474c3c;
 
     @media (min-width: 768px) {
       color: var(--div-color);
