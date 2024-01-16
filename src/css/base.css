@@ -1,9 +1,41 @@
+/* 
+Colors
+Dunkel: #474c3c
+2: #868664
+3: #9da37a
+Hell: #e2dea2
+
+
+*/
+
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+
+header {
+  height: 95vh;
+  background-image: linear-gradient(hsla(56, 52%, 76%, 0.699), rgba(71, 76, 60, 0.699) ), url(../images/coffee.jpg);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0,100vh 0, 100vh 85vh, 0 100vh);
+}
+
 body {
-  background: #9da37a;
+  background: #ffffff;
 
   @media (min-width: 768px) {
     color: #e2dea2;
   }
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;  
+  line-height: 1.7;
+  color:#474c3c;
+  padding: 30px; 
 }
 
 main {
