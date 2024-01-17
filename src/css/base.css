@@ -77,6 +77,7 @@ h2 {
     top: 40%;  
     left:50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
@@ -84,6 +85,7 @@ h2 {
     text-transform: uppercase;
 
     backface-visibility: hidden;
+    margin-bottom: 60px;
     
 }
 
@@ -140,4 +142,29 @@ h2 {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 15px;
+  transition: all .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px #9da37ac5
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px #9da37ac5
+}
+
+.btn-white {
+  background-color: #474c3c;
+  color: #000000;
 }
