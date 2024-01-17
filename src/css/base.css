@@ -71,6 +71,7 @@ h2 {
 
 }
 
+
 .text-box {
   position: absolute;
     top: 40%;  
@@ -81,6 +82,8 @@ h2 {
 .heading-primary {
     color: #000;
     text-transform: uppercase;
+
+    backface-visibility: hidden;
     
 }
 
@@ -89,6 +92,9 @@ h2 {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 33px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
   
 }
 
@@ -97,5 +103,41 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 11px;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px)
+
+  }
+
+80% {
+  transform: translateX(10px);
+}
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px)
+
+  }
+
+80% {
+  transform: translateX(-10px);
+}
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
