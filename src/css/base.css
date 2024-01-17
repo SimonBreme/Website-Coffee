@@ -20,10 +20,10 @@ header {
   background-image: linear-gradient(hsla(56, 52%, 76%, 0.699), rgba(71, 76, 60, 0.699) ), url(../images/coffee.jpg);
   background-size: cover;
   background-position: top;
+  position: relative;
 
-  clip-path: polygon(0 0,100vh 0, 100vh 85vh, 0 100vh);
+  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
 }
-
 body {
   background: #ffffff;
 
@@ -59,3 +59,43 @@ img {
 h2 {
   font-size: var(--h2-font-size);
 }
+
+.logo-box {
+    position: absolute;
+    top: 40px;  
+    left:40px;
+}
+
+.logo {
+    height: 35px;
+
+}
+
+.text-box {
+  position: absolute;
+    top: 40%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: #000;
+    text-transform: uppercase;
+    
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 33px;
+  
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 11px;
+}
+
