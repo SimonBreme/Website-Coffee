@@ -1,11 +1,13 @@
 /* 
-Colors
-Dunkel: #474c3c
-2: #868664
-3: #9da37a
-Hell: #e2dea2
-
-
+  Colors
+  White: rgba(255,255,255,1) #FFFFFF
+  Anthrazit: rgba(26,26,26,1) #1A1A1A
+  Kraftpapier: rgba(215,190,157,1) #D7BE9D
+  Petrol: rgba(0,109,126,1) #006D7E
+  Rosa: rgba(237,209,201,1) #EDD1C9
+  Orange: rgba(215,124,18,1) #D77C12
+  Medium Grey: rgba(115,115,115,1) #737373
+  Light Grey: rgba(233,233,233,1) #E9E9E9
 */
 
 *{
@@ -30,8 +32,8 @@ body {
   @media (min-width: 768px) {
     color: #e2dea2;
   }
-  font-family: sans-serif;
-  font-weight: 400;
+  font-family: Roboto; 
+  font-weight: 800;
   font-size: 16px;  
   line-height: 1.7;
   color:#474c3c;
@@ -182,11 +184,11 @@ h2 {
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px #9da37ac5
+  box-shadow: 0 5px 10px #9da37a
 }
 
 .btn-white {
-  background-color: #474c3c;
+  background-color: #474c3c77;
   color: #000000;
 }
 
@@ -204,7 +206,7 @@ h2 {
 }
 
 .btn-white:after {
-    background-color: #474c3c;
+    background-color: #474c3c79;
 }
 
 .btn:hover::after {
