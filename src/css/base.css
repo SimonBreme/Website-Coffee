@@ -45,6 +45,9 @@ header {
   background-size: cover;
   background-position: top;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 body {
@@ -139,8 +142,61 @@ body text {
 
 .logo {
     height: 35px;
+    fill: #ffffff;
+    color: #ffffff;
 
 }
+
+.top-nav-box {
+  position: absolute;
+  transform: translate();
+  justify-content: space-between;
+
+}
+
+.top-nav{
+  background-color: #474c3c;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-decoration: none;
+  
+
+  &__Item {
+
+  }
+  &__link {
+    
+  }
+  &__link:hover {
+    color: #E9E9E9;
+    
+  }
+
+  &__link:visited{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    display: block;
+    margin-right: auto;
+    color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    
+   
+    
+    
+  }
+  &__icon {
+    color: #ffffff;
+    
+  }
+  
+  
+}
+
 
 
 .text-box {
