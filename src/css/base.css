@@ -14,8 +14,30 @@
   margin: 0; 
   padding: 0;
   box-sizing: border-box;
-  
+}
+
+
+html{
+  @include respond (phone) {
+    font-size: 50%
   }
+
+  @include respond (tablet) {
+    font-size: 60%
+  }
+
+  @include respond (desktop) {
+      font-size: 70%  
+  }
+
+  @include respond (ldesktop) {
+    font-size: 80%  
+  }
+
+  @include respond (xldesktop) {
+    font-size: 90%  
+  }
+}
 
 header {
   height: 95vh;
