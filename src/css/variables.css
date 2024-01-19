@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --div-color: #474c3c;
+  --div-color: #000000;
 
   /* Text Styles */
   --h2-font-size: 26px;
@@ -8,23 +8,23 @@
 
 
 /*
-// Media Query manager
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+  // Media Query manager
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
 
-// Very large desktop devices (1920px and up)
-@media (min-width: 1920px) { ... }
+  // Very large desktop devices (1920px and up)
+  @media (min-width: 1920px) { ... }
 
-1em = 16px (36,48,62,75,120)
+  1em = 16px (36,48,62,75,120)
 */
 
 

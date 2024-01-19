@@ -39,7 +39,7 @@ html{
   }
 }
 
-header {
+.header {
   height: 65vh;
   background-image: url(../images/coffee.jpg);
   background-size: cover;
@@ -51,8 +51,9 @@ header {
   
 }
 
-body {
+.body {
   background: #ffffff;
+  color: black;
 
   @media (min-width: 768px) {
     color: #e2dea2;
@@ -60,17 +61,18 @@ body {
 
 }
 
-main {
+.main {
   margin: 0 auto;
   max-width: 1440px;
 
   & div {
-    color: #474c3c;
+    color: #000000;
 
     @media (min-width: 768px) {
       color: var(--div-color);
     }
   }
+  position: relative;
 }
 
 img {
@@ -112,7 +114,7 @@ animation-timing-function: ease-out;
 
 }
 
-h2 {
+.h2 {
   font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 48px;
@@ -121,7 +123,7 @@ h2 {
   text-decoration: none;
 }
 
-h3 {
+.h3 {
   font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 42px;
@@ -130,7 +132,7 @@ h3 {
   text-decoration: none;
 }
 
-body text {
+.body text {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -346,4 +348,61 @@ body text {
   animation-timing-function: ease-out;
   animation-delay: .75s;
   animation-fill-mode: backwards;
+}
+
+.content-box {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: relative;
+  display: flex;
+  font-family: sans-serif;
+  
+}
+
+.text-box__right {
+  width: 50%;
+  padding: 5% 10% 5% 5%;
+}
+
+.text-box__left {
+  width: 50%;
+  padding: 5% 
+}
+
+.info-box__left {
+  width: 65%;
+  display: block;
+  position: relative;
+  transform: translateY(100%);
+}
+
+.info-box__right {
+  width: 35%;
+  float:right;
+  position: relative;
+  
+  
+}
+
+
+.image-box__left {
+  width: 50%;
+  padding: 0% 0% 5% 5%;
+  position: relative;
+  
+  
+  
+}
+
+.image-box__right {
+  width: 50%;
+  padding: 5% 5% 10% 0%;
+  position: relative;
+  float: right;
+  
+}
+
+.image__right {
+position: top;
+
 }
