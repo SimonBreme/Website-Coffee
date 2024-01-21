@@ -1,9 +1,32 @@
 :root {
-  /* Colors */
+  /* 
+  Colors:
+  White: rgba(255,255,255,1) #FFFFFF
+  Anthrazit: rgba(26,26,26,1) #1A1A1A
+  Kraftpapier: rgba(215,190,157,1) #D7BE9D
+  Petrol: rgba(0,109,126,1) #006D7E
+  Rosa: rgba(237,209,201,1) #EDD1C9
+  Orange: rgba(215,124,18,1) #D77C12
+  Medium Grey: rgba(115,115,115,1) #737373
+  Light Grey: rgba(233,233,233,1) #E9E9E9
+*/
   --div-color: #000000;
 
-  /* Text Styles */
-  --h2-font-size: 26px;
+  /* 
+  Text Styles Desktop:
+   */
+  --h1-font-size: 96px; 
+  --h2-font-size: 48px;
+  --h3-font-size: 42px;
+  --body-text-font-size: 18px;
+
+  /* 
+  Text Styles Mobil:
+   */
+  --h1-font-size: 64px; 
+  --h2-font-size: 36px;
+  --h3-font-size: 32px;
+  --body-text-font-size: 14px;
 }
 
 
@@ -28,6 +51,7 @@
 */
 
 
+
   @mixin respond(breakpoint) {
     @if $breakpoint == phone {
       @media (min-width: 576px) {@content}; 
@@ -46,3 +70,4 @@
     }   
   }
   
+

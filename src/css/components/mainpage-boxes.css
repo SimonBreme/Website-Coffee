@@ -1,0 +1,64 @@
+
+.text-box {
+    position: absolute;
+      top: 50%;  
+      left:50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  
+  
+  .content-box {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    display: flex;
+    font-family: sans-serif; 
+  }
+  
+  
+  .text-box__right {
+    width: 50%;
+    padding: 5% 10% 5% 5%;
+  }
+  
+  
+  .text-box__left {
+    width: 50%;
+    padding: 5% 
+  }
+  
+  
+  .info-box__left {
+    width: 65%;
+    display: block;
+    position: relative;
+    transform: translateY(100%);
+  }
+  
+  
+  .info-box__right {
+    width: 35%;
+    float:right;
+    position: relative;
+  }
+  
+  
+  .image-box__left {
+    width: 50%;
+    padding: 0% 0% 5% 5%;
+    position: relative; 
+  }
+  
+  
+  .image-box__right {
+    width: 50%;
+    padding: 5% 5% 10% 0%;
+    position: relative;
+    float: right;
+  }
+  
+  
+  .image__right {
+  position: top;
+  }
