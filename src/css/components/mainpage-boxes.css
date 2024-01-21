@@ -62,3 +62,22 @@
   .image__right {
   position: top;
   }
+
+  .content-box-anthrazit {
+    background-color: rgb(26,26,26,1);
+    color: rgb(255, 255, 255);
+    position: relative;
+    height: auto;
+    width: max 100%;
+   
+   
+   
+  }
+  .Costa-Rica {
+   margin: 10% 5% 10% 5%;
+   max-inline-size: 14%;
+  
+   
+   
+
+  }

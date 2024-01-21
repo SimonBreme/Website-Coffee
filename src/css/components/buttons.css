@@ -24,10 +24,6 @@
   box-shadow: 0 5px 10px rgba(215,190,157,0.8)
 }
 
-.btn-anthrazit {
-  background-color:rgba(26,26,26,0.8);
-  color: rgba(26,26,26,0.8);
-}
 
 .btn:after {
   content:"";
@@ -42,9 +38,6 @@
   transition: all .4s;
 }
 
-.btn-anthrazit:after {
-    background-color: rgba(26, 26, 26, 0.8);
-}
 
 .btn:hover::after {
   transform: scale(1.2);
@@ -58,3 +51,33 @@
   animation-delay: .75s;
   animation-fill-mode: backwards;
 }
+
+.btn-anthrazit {
+    background-color:rgba(26,26,26,0.8);
+    color: rgba(26,26,26,0.8);
+  }
+
+
+.btn-anthrazit:after {
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+.btn-white {
+   
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    display:inline-block;
+    transform: translateY(-80px);
+    outline-color: #ffffff;
+    text-decoration: none;
+    outline-style: solid;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    
+   justify-self: center;
+   align-self: center;
+
+   
+    
+   
+  }
