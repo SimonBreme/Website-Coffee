@@ -14,18 +14,19 @@
     position: relative;
     display: flex;
     font-family: sans-serif; 
+    padding: 5%;
   }
   
   
   .text-box__right {
     width: 50%;
-    padding: 5% 10% 5% 5%;
+    padding: 5% 5% 5% 5%;
   }
   
   
   .text-box__left {
     width: 50%;
-    padding: 5% 
+    padding: 5% 5% 5% 0% 
   }
   
   
@@ -46,14 +47,14 @@
   
   .image-box__left {
     width: 50%;
-    padding: 0% 0% 5% 5%;
+    padding: 0% 0% 5% 0%;
     position: relative; 
   }
   
   
   .image-box__right {
     width: 50%;
-    padding: 5% 5% 10% 0%;
+    padding: 5% 0% 0% 0%;
     position: relative;
     float: right;
   }
@@ -69,15 +70,52 @@
     position: relative;
     height: auto;
     width: max 100%;
+    padding: 5%
+    ;
    
    
    
   }
   .Costa-Rica {
-   margin: 10% 5% 10% 5%;
-   max-inline-size: 14%;
+   margin: 0.8%;
+   max-inline-size: 23%;
+   position: relative;
   
+  }
+
+  .content-box-img {
+    background-image: url(../images/.Coffee-bags.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
    
-   
+  }
+
+
+  .text-box-main {
+    position: relative; 
+    left:50%;      
+    transform: translate(-50%, -50%);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(77, 46, 46);
+    
+  }
+
+  .info-box__produkte {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+    
+    
+
 
   }
