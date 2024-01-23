@@ -3,7 +3,8 @@
     justify-content: space-between;
     top: 0;
     right: 0;
-    transform: translateY(-70px);
+  
+    
   
   }
   
@@ -38,35 +39,24 @@
     }
   
     .top-nav__link:hover {
-      transform: translateY(-30px);
       text-decoration-line: underline;
       
   
     }
      
     .top-nav__link:active {
-        transform: translateY(-10px);
+      text-decoration-line: underline;
         
       }
       
     
   
-    .top-nav__icon {
-      color: #ffffff;
-      fill: #ffffff;
-      transform: translateY(65px);
-      
-      
-      
-    }
+
   
-    .top-nav__icon:active {
+    .top-nav__icon :active {
       color: #006d7e;
-      fill: #ffffff;
-      transform: translate(10);
+      text-decoration-line: underline;
       
     }
-    
-    
   }
   

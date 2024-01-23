@@ -1,5 +1,5 @@
 
-.text-box {
+  .text-box {
     position: absolute;
       top: 50%;  
       left:50%;
@@ -75,36 +75,25 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;   
+    flex-wrap: wrap;
+   
   }
-  .Costa-Rica {
-   margin: 0.8%;
-   max-inline-size: 23%;
-   position: relative;
   
-  }
 
-  .content-box-img {
-    background-image: url(../images/.Coffee-bags.jpg);
+  .content-box-image {
+   width: 300px;
+   height: 200px;
+    background-image: url(/src/images/Coffee-bags.jpg);
     background-size: cover;
-    background-position: top;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
+   
+    
    
   }
 
 
   .text-box-main {
-    position: relative; 
-    left:50%;      
-    transform: translate(-50%, -50%);
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    color: rgb(77, 46, 46);
-    
+   
+   
   }
 
   .info-box__produkte {
@@ -112,10 +101,45 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    
+   
+  }
 
+  .Info-box__Costa-Rica {
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(26,26,26,1);
+   justify-content: space-between;
+   
     
-    
+  
+  }
 
+
+  .Costa_Rica {
+    padding: 5%;
+   }
+ 
+   .text-Costa_Rica {
+     padding: 5% 0 2% 5%;
+   }
+     
+   .text-Costa_Rica__grey {
+     padding: 0 0 0 5%;
+     color: rgb(115, 115, 115);
+   }
+     
+   .Costa_Rica__Icon-line {
+     padding: 2%;
+     color: #ffffff;
+     
+
+    .Icons__Icon-line {
+      scale: 0.5;
+    }
+     
+     
+
+     
 
   }
+ 
