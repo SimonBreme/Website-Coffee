@@ -80,21 +80,23 @@
   }
   
 
-  .content-box-image {
-   width: 300px;
-   height: 200px;
-    background-image: url(/src/images/Coffee-bags.jpg);
+    .content-box-image {
+    background-image: linear-gradient(#00000080), url(../images/Coffee-bags.jpg);
+    filter: scale (-50%);
     background-size: cover;
-   
-    
-   
-  }
+    background-position: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    }
 
 
-  .text-box-main {
-   
-   
-  }
+    .text-box-main {
+    color: #ffffff;
+    text-align: center;
+    }
+
 
   .info-box__produkte {
     position: absolute;
@@ -110,8 +112,6 @@
    background-color: rgb(26,26,26,1);
    justify-content: space-between;
    
-    
-  
   }
 
 
@@ -131,15 +131,59 @@
    .Costa_Rica__Icon-line {
      padding: 2%;
      color: #ffffff;
-     
+    } 
 
     .Icons__Icon-line {
       scale: 0.5;
     }
      
-     
+   .flexbox_Das-steckt-drin {
+     position: relative;
+     display: flex;
+     margin: 5%;
+     flex-direction: column;
+     align-items: center;
+     }
 
-     
 
-  }
+     .flexbox-re-li {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      padding: 5%;
+     }
+
+
+     .Icons-top-down {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+      width: 100%;
+      
+      
+      
+      
+
+     }
+
+     .Logo-Text {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      margin: 16%;
+      
+      
+     
+      
+     }
+
+
+    
+
+
+    
+
+  
  

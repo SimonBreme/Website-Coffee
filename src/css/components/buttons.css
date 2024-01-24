@@ -85,3 +85,18 @@
   text-decoration: none;
 }
 
+.btn_zum-Shop:link,
+.btn_zum-Shop:visited {
+  color: #ffffff;
+  background-color:rgba(26,26,26,1);
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all .2s;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
