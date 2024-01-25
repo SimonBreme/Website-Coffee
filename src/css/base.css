@@ -27,6 +27,16 @@
   }
 }
 
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 10%;
+}
+
 
 .main {
   margin: 0 auto;

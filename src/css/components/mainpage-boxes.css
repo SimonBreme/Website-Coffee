@@ -1,5 +1,5 @@
 
-  .text-box {
+  .Textbox_Header {
     position: absolute;
       top: 50%;  
       left:50%;
@@ -8,7 +8,7 @@
   }
   
   
-  .content-box {
+  .Flexbox_Content {
     background-color: rgb(255, 255, 255);
     color: black;
     position: relative;
@@ -18,19 +18,19 @@
   }
   
   
-  .text-box__right {
+  .Textbox_right {
     width: 50%;
     padding: 5% 5% 5% 5%;
   }
   
   
-  .text-box__left {
+  .Textbox_left {
     width: 50%;
     padding: 5% 5% 5% 0% 
   }
   
   
-  .info-box__left {
+  .Infobox_left {
     width: 65%;
     display: block;
     position: relative;
@@ -38,33 +38,29 @@
   }
   
   
-  .info-box__right {
+  .Infobox_right {
     width: 35%;
     float:right;
     position: relative;
   }
   
   
-  .image-box__left {
+  .Imagebox_left {
     width: 50%;
     padding: 0% 0% 5% 0%;
     position: relative; 
   }
   
   
-  .image-box__right {
+  .Imagebox_right {
     width: 50%;
     padding: 5% 0% 0% 0%;
     position: relative;
     float: right;
   }
   
-  
-  .image__right {
-  position: top;
-  }
 
-  .content-box-anthrazit {
+  .Flexbox_Anthrazit {
     background-color: rgb(26,26,26,1);
     color: rgb(255, 255, 255);
     position: relative;
@@ -76,77 +72,65 @@
     justify-content: flex-start;
     align-items: flex-start;   
     flex-wrap: wrap;
-   
-  }
-  
-
-    .content-box-image {
-    background-image: linear-gradient(#00000080), url(../images/Coffee-bags.jpg);
-    filter: scale (-50%);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-    }
-
-
-    .text-box-main {
-    color: #ffffff;
-    text-align: center;
-    }
-
-
-  .info-box__produkte {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-   
   }
 
-  .Info-box__Costa-Rica {
+
+  .Flexbox_Costa-Rica {
    display: flex;
    flex-direction: row;
    background-color: rgb(26,26,26,1);
    justify-content: space-between;
-   
   }
 
 
-  .Costa_Rica {
+  .Image_Costa-Rica {
     padding: 5%;
    }
  
-   .text-Costa_Rica {
+
+   .Text_Costa-Rica {
      padding: 5% 0 2% 5%;
    }
      
-   .text-Costa_Rica__grey {
+
+   .Price_Costa-Rica {
      padding: 0 0 0 5%;
      color: rgb(115, 115, 115);
    }
      
-   .Costa_Rica__Icon-line {
-     padding: 2%;
-     color: #ffffff;
-    } 
 
-    .Icons__Icon-line {
+    .Icons_Icon-line {
       scale: 0.5;
+      padding: 2%;
     }
+    
      
-   .flexbox_Das-steckt-drin {
-     position: relative;
-     display: flex;
-     margin: 5%;
-     flex-direction: column;
-     align-items: center;
+    .Flexbox_Coffee-bags {
+      background-image: linear-gradient(#00000080), url(../images/Coffee-bags.jpg);
+      filter: scale (-50%);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      height: 50vh;
+      align-items: center;
+      justify-content: center;
+      }
+  
+  
+      .Text_Coffee-bags {
+      color: #ffffff;
+      text-align: center;
+      }
+
+
+    .Titel_Das-steckt-drin {
+      position: relative;
+      text-align: center;
+      margin: 5%;
      }
 
 
-     .flexbox-re-li {
+     .Flexbox_Das-steckt-drin {
       position: relative;
       display: flex;
       flex-direction: row;
@@ -154,7 +138,7 @@
      }
 
 
-     .Icons-top-down {
+     .Flexbox_Icons-top-down {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -164,7 +148,7 @@
      }
 
 
-     .Logo-Text {
+     .Flexbox_Icon-Text {
       display: flex;
       flex-direction: row;
       flex: 1;
@@ -172,14 +156,50 @@
      }
 
 
-  .map {
-    height: 65vh;
-  }
+.Box_Map {
+  height: 65vh;
+}
 
   
-  .Titel {
-    margin: 0% 0% 2% 5%;
-  }
+.Titel_Map {
+  margin: 0% 0% 2% 5%;
+}
+
+
+.Flexbox_Logo-Footer {
+ scale: 1.5;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: space-between;
+}
+
+
+.Logo_Footer {
+  scale: 0.5;
+  transform: translateX(-60px);
+}
+
+
+.Flexbox_Adresse-Öffnungszeiten {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+
+.Flexbox_Links-Footer {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  margin: 0% 10% 0% 0%;
+}
+
+
+
 
 
 

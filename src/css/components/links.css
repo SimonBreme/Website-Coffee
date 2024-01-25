@@ -1,0 +1,9 @@
+.Link_Footer {
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+    .Link_Footer:hover {
+      text-decoration: underline;
+      transform: translateY(-1px);
+    }
