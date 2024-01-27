@@ -1,4 +1,4 @@
-:root {
+
   /* 
   Colors:
   White: rgba(255,255,255,1) #FFFFFF
@@ -9,7 +9,7 @@
   Orange: rgba(215,124,18,1) #D77C12
   Medium Grey: rgba(115,115,115,1) #737373
   Light Grey: rgba(233,233,233,1) #E9E9E9
-*/
+
   --div-color: #000000;
   --div-color: #FFFFFF;
   --div-color: #1A1A1A;
@@ -23,15 +23,15 @@
 
   /* 
   Text Styles Desktop:
-   */
+   
     --h1-font-size: 96px; 
     --h2-font-size: 48px;
     --h3-font-size: 42px;
     --body-text-font-size: 18px;
   
-  /* 
+  
   Text Styles Mobil:
-   */
+   
   
    --h1-font-size: 64px; 
    --h2-font-size: 36px;
@@ -60,17 +60,4 @@
 
   1em = 16px (36,48,62,75,120)
 */
-
-
-*{
-  --h1-font-size: 64px; 
-  --h2-font-size: 316px;
-  --h3-font-size: 32px;
-  --body-text-font-size: 14px;
-}
- 
-.h2 {
-  font-size: 60;
-}
-
 
