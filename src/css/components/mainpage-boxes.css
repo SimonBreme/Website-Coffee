@@ -16,6 +16,12 @@
     font-family: sans-serif; 
     padding: 5%;
   }
+
+    @media (max-width: 768px) {
+      .Flexbox_Content {
+      flex-direction: column; 
+    }
+    }
   
   .Titel_Rösterei-Café {
     margin: 0 0 5% 0;
@@ -30,13 +36,27 @@
   .Textbox_right {
     width: 50%;
     padding: 5% 10% 5% 5%;
+    order: 1;
   }
+
+    @media (max-width: 768px) {
+      .Textbox_right{
+      width: 100%;
+      padding: 5% 10% 5% 0% 
+    }
+    }
   
   
   .Textbox_left {
     width: 50%;
     padding: 5% 10% 5% 0% 
   }
+
+    @media (max-width: 768px) {
+      .Textbox_left{
+      width: 100%;
+    }
+    }
   
   
   .Infobox_left {
@@ -45,7 +65,7 @@
     position: relative;
     transform: translateY(100%);
   }
-  
+
   
   .Infobox_right {
     width: 25%;
@@ -56,17 +76,31 @@
   
   .Imagebox_left {
     width: 50%;
-    padding: 0% 0% 5% 0%;
+    padding: 5% 0% 0% 0%;
     position: relative; 
   }
   
+    @media (max-width: 768px) {
+      .Imagebox_left{
+      width: 75%;
+      order: 2;
+    }
+    }
+
   
   .Imagebox_right {
     width: 50%;
     padding: 5% 0% 0% 0%;
     position: relative;
-    float: right;
   }
+
+    @media (max-width: 768px) {
+      .Imagebox_right{
+      width: 75%;
+      flex: right;
+      align-self: flex-end;
+    }
+    }
   
 
   .Flexbox_Anthrazit {
@@ -74,14 +108,17 @@
     color: rgb(255, 255, 255);
     position: relative;
     height: auto;
-    width: max 100%;
     padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;   
-    flex-wrap: wrap;
+    max-width: 100%;
   }
+
+    @media (max-width: 768px) {
+      .Flexbox_Anthrazit{
+      flex-wrap: wrap;
+    }
+    }
 
   .Titel_Entdecke-unsere-Kaffee-Sorten {
     margin: 0 0 5% 0;
@@ -93,6 +130,14 @@
    background-color: rgb(26,26,26,1);
    justify-content: space-between;
   }
+
+    @media (max-width: 768px) {
+      .Flexbox_Costa-Rica{
+      flex-wrap: wrap;
+      flex-basis: 50%;
+      box-sizing: border-box;
+    }
+    }
 
 
   .Image_Costa-Rica {
