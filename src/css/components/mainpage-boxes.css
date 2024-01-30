@@ -114,11 +114,6 @@
     max-width: 100%;
   }
 
-    @media (max-width: 768px) {
-      .Flexbox_Anthrazit{
-      flex-wrap: wrap;
-    }
-    }
 
   .Titel_Entdecke-unsere-Kaffee-Sorten {
     margin: 0 0 5% 0;
@@ -126,18 +121,26 @@
 
   .Flexbox_Costa-Rica {
    display: flex;
-   flex-direction: row;
    background-color: rgb(26,26,26,1);
-   justify-content: space-between;
   }
 
     @media (max-width: 768px) {
       .Flexbox_Costa-Rica{
-      flex-wrap: wrap;
-      flex-basis: 50%;
-      box-sizing: border-box;
+      flex-wrap: wrap; 
+      display: flex;
     }
     }
+
+  /*.Flexbox_Single-Costa-Rica {} */
+
+  @media (max-width: 768px) {
+    .Flexbox_Single-Costa-Rica{
+    box-sizing: border-box;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    flex-basis: 50%;
+    }
+  } 
 
 
   .Image_Costa-Rica {
@@ -160,6 +163,13 @@
       scale: 0.5;
       padding: 2%;
     }
+
+    @media (max-width: 768px) {
+      .Icons_Icon-line{
+      scale: 0.4;
+      padding: 0;
+      }
+    } 
     
      
     .Flexbox_Coffee-bags {
@@ -168,11 +178,25 @@
       background-size: cover;
       background-position: center;
       display: flex;
+      flex-direction: column;
       height: 50vh;
       align-items: center;
       justify-content: center;
       }
   
+
+    .Titel_Herkunft {
+      color: #ffffff;
+      margin: 0 0 3% 0;
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .Titel_Herkunft{
+      display: flex;
+      }
+    } 
+
   
       .Text_Coffee-bags {
       color: #ffffff;
@@ -194,6 +218,26 @@
       padding: 5%;
      }
 
+     @media (max-width: 768px) {
+      .Flexbox_Das-steckt-drin{
+      flex-direction: column;
+      }
+    } 
+
+    .Imagebox_Center {
+      width: 50%;
+      padding: 5% 0% 0% 0%;
+      position: relative; 
+    }
+
+    @media (max-width: 768px) {
+      .Imagebox_Center{
+      width: 100%;
+      padding: 0;
+      scale: 0.8;
+      transform: translateY(-120px);
+      }
+    }
 
      .Flexbox_Icons-top-down {
       display: flex;
@@ -204,14 +248,44 @@
       width: 100%;
      }
 
+     @media (max-width: 768px) {
+      .Flexbox_Icons-top-down{
+      flex-wrap: wrap;
+      max-width: 100%;
+      flex-direction: row;
+      transform: translateY(-150px);
+      }
+    }
+
 
      .Flexbox_Icon-Text {
       display: flex;
       flex-direction: row;
-      flex: 1;
       margin: 16%; 
      }
 
+     @media (max-width: 768px) {
+      .Flexbox_Icon-Text{
+      flex-direction: column;
+      flex-basis: 33.3%;
+      justify-content: center;
+      text-align: center;
+      margin: 0;
+      order:1;
+      }
+    }
+
+    .Icon_Iconline {
+      margin: 0 20% 0 -5%
+    }
+
+    @media (max-width: 768px) {
+      .Icon_Iconline{
+      margin: auto;
+      align-self: flex-start;
+      padding: 5%;
+      }
+    }
 
 .Box_Map {
   height: 65vh;
@@ -224,12 +298,24 @@
 
 
 .Flexbox_Logo-Footer {
- scale: 1.5;
+ scale: 1.0;
  display: flex;
  flex-direction: column;
  align-items: flex-start;
  justify-content: space-between;
+ flex: 1;
 }
+
+  @media (max-width: 768px) {
+    .Flexbox_Logo-Footer{
+    scale: 1.0;
+    order: 1;
+    flex-basis: 33%;
+    justify-content: center;
+    
+    }
+  }
+
 
 
 .Logo_Footer {
@@ -238,24 +324,120 @@
 }
 
 
-.Flexbox_Adresse-Öffnungszeiten {
+.Flexbox_Infos-Footer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-decoration: none;
+  flex: 1;
+  margin-top: auto;
+ 
+}
+
+@media (max-width: 768px) {
+  .Flexbox_Infos-Footer{
+  order: 2;
+  flex-basis: 33%;
+  flex-direction: row;
+  width: 100%;
+  }
+}
+
+  @media (max-width: 768px) {
+    .Komm-uns-besuchen {
+    display: none;
+    }
+  }
+
+
+.Flexbox_Adresse {
+  display: flex;
+}
+
+  @media (max-width: 768px) {
+    .Flexbox_Adresse {
+    flex-direction: column;
+    display: block;
+    transform: translateY(50px);
+    flex-basis: 50%;
+   
+    }
+  }
+
+
+.Flexbox_Öffnungszeiten {
+  display: flex;
+  
+  }
+
+  @media (max-width: 768px) {
+    .Flexbox_Öffnungszeiten {
+    flex-direction: row;
+    flex-basis: 50%;
+    transform: translateY(35px);
+    }
+  }
+
+
+.Flexbox_Alle-Links {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .Flexbox_Alle-Links{
+  display: flex;
+  order: 3;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  }
 }
 
 
-.Flexbox_Links-Footer {
+.Flexbox_Links-Footer-One {
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-decoration: none;
   margin: 0% 10% 0% 0%;
+  flex: 1;
 }
 
+@media (max-width: 768px) {
+  .Flexbox_Links-Footer-One{
+  order: 4;
+  flex-basis: 50%;
+  width: 50%;
+  flex-direction: column;
+  margin: 0;
+  
+  }
+}
 
+.Flexbox_Links-Footer-Two {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  margin: 0% 10% 0% 0%;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .Flexbox_Links-Footer-Two{
+  order: 3;
+  flex-basis: 50%;
+  width: 50%;
+  flex-direction: column;
+  margin: 0;
+  
+  }
+}
 
 
 

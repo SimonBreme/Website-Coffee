@@ -76,6 +76,14 @@
     margin: 5%
   }
 
+  @media (max-width: 768px) {
+    .btn-white{
+    scale: 1.5;
+    outline-width: 2px;
+    padding: 5px 30px 5px 30px;
+    }
+  } 
+
 .btn_Cofee-bags {
   color: rgba(255, 255, 255, 0.8);
   position: absolute;
@@ -100,3 +108,19 @@
   letter-spacing: 1px;
   font-family: sans-serif;
 }
+
+@media (max-width: 768px) {
+  .btn_zum-Shop{
+  align-self: center;
+  justify-self: center;
+  order: 2;
+  margin: auto;
+  transform: translateY(80px);
+  display: inline-block;
+  width: 35%;
+  height: auto%;
+  text-align: center;
+  
+
+  }
+} 
