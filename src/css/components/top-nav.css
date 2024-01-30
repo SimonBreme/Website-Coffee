@@ -5,6 +5,7 @@
     right: 0;
     width: 100%;
   }
+
   
   .List_top-nav {
     list-style: none;
@@ -49,7 +50,53 @@
       text-decoration-line: underline; 
       }
       
-  
- 
+  /*Mobile Navigation*/
 
+
+    .Menu_mobile {
+      background-color: transparent;
+      padding: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      right: 0;
+      position: fixed;
+      width: 100%;
+    }
+
+    @media (min-width: 769px) {
+      .Menu_mobile{
+        display: none;
+      
+      }
+    }
+    
+
+    .Menupunkte_mobile {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black; /* Hintergrundfarbe im aktiven Modus */
+      z-index: 1;
+    }
+
+   
+      .Menu_toggle{
+        width: 30px; 
+        cursor: pointer;
+    
+      }
+    
+
+    
+      .Menu_close{
+        width: 30px; 
+        cursor: pointer;
+      }
+    
   
+   
