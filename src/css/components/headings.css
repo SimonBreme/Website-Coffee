@@ -1,10 +1,10 @@
 .heading-primary {
-    backface-visibility: hidden;
-    color: #ffffff;
-    font-family: Roboto, sans-serif;
-  }
-  
-  .heading-primary-main {
+  backface-visibility: hidden;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+
+.heading-primary-main {
   display: block;
   font-size: 96px;
   font-weight: 900;
@@ -12,16 +12,16 @@
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-  }
-  
-  .heading-primary-sub {
+}
+
+.heading-primary-sub {
   display: block;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
-  
+
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-  }
+}

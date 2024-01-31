@@ -1,102 +1,47 @@
 .Box_top-nav {
-    position: fixed;
-    justify-content: space-between;
-    top: 0;
-    right: 0;
-    width: 100%;
-  }
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
 
-  
-  .List_top-nav {
-    list-style: none;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0;
-    backface-visibility: hidden;
-    padding: 40px;
-    float: right;
-    font-family: sans-serif;
-  }
-    
+.List_top-nav {
+  list-style: none;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  backface-visibility: hidden;
+  padding: 40px;
+  float: right;
+  font-family: sans-serif;
+}
 
-    .Item_top-nav {
-      color: #ffffff;
-      text-align: center;
-      display: inline;
-      text-decoration: none;
-      margin-right: 2vh;
-    }
-  
-    .Logo_top-nav {
-      scale: 0.4;
-      float: left;
-      
-    }
+.Item_top-nav {
+  color: #ffffff;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  margin-right: 2vh;
+}
 
-    .Link_top-nav,
-    .Link_top-nav:visited{
-      color: #ffffff;
-      text-decoration: none;
-    }
-  
+.Logo_top-nav {
+  scale: 0.4;
+  float: left;
+}
 
-    .Link_top-nav:hover {
-      text-decoration-line: underline;
-    }
-     
+.Link_top-nav,
+.Link_top-nav:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-    .Link_top-nav:active {
-      text-decoration-line: underline; 
-      }
-      
-  /*Mobile Navigation*/
+.Link_top-nav:hover {
+  text-decoration-line: underline;
+}
 
+.Link_top-nav:active {
+  text-decoration-line: underline;
+}
 
-    .Menu_mobile {
-      background-color: transparent;
-      padding: 0 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      top: 0;
-      right: 0;
-      position: fixed;
-      width: 100%;
-    }
-
-    @media (min-width: 769px) {
-      .Menu_mobile{
-        display: none;
-      
-      }
-    }
-    
-
-    .Menupunkte_mobile {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: black; /* Hintergrundfarbe im aktiven Modus */
-      z-index: 1;
-    }
-
-   
-      .Menu_toggle{
-        width: 30px; 
-        cursor: pointer;
-    
-      }
-    
-
-    
-      .Menu_close{
-        width: 30px; 
-        cursor: pointer;
-      }
-    
-  
-   

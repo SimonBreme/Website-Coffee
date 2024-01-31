@@ -5,9 +5,9 @@
   padding: 15px;
   display: inline-block;
   border-radius: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
   position: relative;
-  translate: 0 150px; 
+  translate: 0 150px;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -16,17 +16,16 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(26,26,26,0.8)
+  box-shadow: 0 10px 20px rgba(26, 26, 26, 0.8);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(215,190,157,0.8)
+  box-shadow: 0 5px 10px rgba(215, 190, 157, 0.8);
 }
 
-
 .btn:after {
-  content:"";
+  content: "";
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -35,9 +34,8 @@
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s;
+  transition: all 0.4s;
 }
-
 
 .btn:hover::after {
   transform: scale(1.2);
@@ -48,41 +46,39 @@
   animation-name: moveInBottom;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-  animation-delay: .75s;
+  animation-delay: 0.75s;
   animation-fill-mode: backwards;
 }
 
 .btn-anthrazit {
-    background-color:rgba(26,26,26,0.8);
-    color: rgba(26,26,26,0.8);
-  }
-
+  background-color: rgba(26, 26, 26, 0.8);
+  color: rgba(26, 26, 26, 0.8);
+}
 
 .btn-anthrazit:after {
-    background-color: rgba(26, 26, 26, 0.8);
+  background-color: rgba(26, 26, 26, 0.8);
 }
 
 .btn-white {
-   
-    color: rgba(255, 255, 255, 0.8);
-    display: inline-block;
-    transform: translateY();
-    outline-color: #ffffff;
-    text-decoration: none;
-    outline-style: solid;
-    border-radius: 2px;
-    padding: 5px 10px 5px 10px;
-    align-self: center;
-    margin: 5%
-  }
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  transform: translateY();
+  outline-color: #ffffff;
+  text-decoration: none;
+  outline-style: solid;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  align-self: center;
+  margin: 5%;
+}
 
-  @media (max-width: 768px) {
-    .btn-white{
+@media (max-width: 768px) {
+  .btn-white {
     scale: 1.5;
     outline-width: 2px;
     padding: 5px 30px 5px 30px;
-    }
-  } 
+  }
+}
 
 .btn_Cofee-bags {
   color: rgba(255, 255, 255, 0.8);
@@ -96,12 +92,12 @@
 .btn_zum-Shop:link,
 .btn_zum-Shop:visited {
   color: #ffffff;
-  background-color:rgba(26,26,26,1);
+  background-color: rgba(26, 26, 26, 1);
   text-decoration: none;
   padding: 10px 20px 10px 20px;
   display: inline-block;
   border-radius: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
   position: relative;
   font-size: 18px;
   font-weight: 400;
@@ -110,17 +106,15 @@
 }
 
 @media (max-width: 768px) {
-  .btn_zum-Shop{
-  align-self: center;
-  justify-self: center;
-  order: 2;
-  margin: auto;
-  transform: translateY(80px);
-  display: inline-block;
-  width: 35%;
-  height: auto%;
-  text-align: center;
-  
-
+  .btn_zum-Shop {
+    align-self: center;
+    justify-self: center;
+    order: 2;
+    margin: auto;
+    transform: translateY(80px);
+    display: inline-block;
+    width: 35%;
+    height: auto%;
+    text-align: center;
   }
-} 
+}
