@@ -28,23 +28,64 @@
 
 .Textbox_center {
   width: 60%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .Flexbox_Imagebox {
   position: relative;
   display: flex;
-  flex-direction: raw;
+  flex-direction: row;
   padding: 5%;
   box-sizing: border-box;
+  @media (max-width: 768px){
+    display:none;
+  }
+}
+
+.Flexbox_Imagebox-mobile {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  box-sizing: border-box;
+  width:100%;
+  justify-content:flex-start;
+
+  @media (min-width: 769px){
+    display:none;
+  }
+}
+
+
+ 
+
+@media (max-width: 768px) {
+  .Flexbox_Imagebox-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .Flexbox_Imagebox {
+    display: none;
+  }
 }
 
 .Imagebox_Collage {
   display: flex;
   width: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    
+  }
 }
 
 .Item_Collage {
   flex: 1 1 calc(25% - 10px);
+  @media (max-width: 768px) {
+    flex: 1 1 calc(50% - 10px);
+  }
 }
 
 .Img_Collage {
