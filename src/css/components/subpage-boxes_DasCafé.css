@@ -1,0 +1,56 @@
+.sub-page-DasCafé {
+  height: 65vh;
+  background-image: url(../images/Coffee-shop.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Flexbox_Content {
+  color: black;
+  position: relative;
+  display: flex;
+  font-family: sans-serif;
+  padding: 5%;
+}
+
+.Flexbox_Content-Center {
+  color: black;
+  position: relative;
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Textbox_center {
+  width: 60%;
+}
+
+.Flexbox_Imagebox {
+  position: relative;
+  display: flex;
+  flex-direction: raw;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.Imagebox_Collage {
+  display: flex;
+  width: 100%;
+}
+
+.Item_Collage {
+  flex: 1 1 calc(25% - 10px);
+}
+
+.Img_Collage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  padding: 5px;
+}

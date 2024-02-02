@@ -21,3 +21,8 @@ module.exports = defineConfig({
     handlebars({partialDirectory: resolve(__dirname, 'src/components'),})
   ]
 })
+
+// vite.config.js
+export default {
+  base: '/sub-page/'
+}
