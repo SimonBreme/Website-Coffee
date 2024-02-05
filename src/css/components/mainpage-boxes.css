@@ -306,6 +306,7 @@
   text-decoration: none;
   flex: 1;
   margin-top: auto;
+  
 }
 
 @media (max-width: 768px) {
@@ -325,6 +326,9 @@
 
 .Flexbox_Adresse {
   display: flex;
+  
+
+  
 }
 
 @media (max-width: 768px) {
@@ -338,6 +342,7 @@
 
 .Flexbox_Öffnungszeiten {
   display: flex;
+
 }
 
 @media (max-width: 768px) {
@@ -353,6 +358,7 @@
   justify-content: space-between;
   flex: 2;
   margin-top: auto;
+  
 }
 
 @media (max-width: 768px) {

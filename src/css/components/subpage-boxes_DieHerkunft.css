@@ -1,0 +1,86 @@
+.sub-page-DieHerkunft {
+  height: 65vh;
+  background-image: url(../images/Coffee-beans-hand-2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Flexbox_Video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Video {
+  width: 90%;
+  height: auto;
+}
+
+.Flexbox_Content-DieHerkunf {
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  height: 90vh;
+}
+
+.Textbox_left-DieHerkunft {
+  width: 40%;
+  padding: 0% 10% 5% 0%;
+  top: 0px;
+}
+.Titel_Die-Anbaugebiete {
+  padding: 0 0 5% 0;
+}
+
+.Imagebox_right-DieHerkunft {
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  transform: translateY(50px);
+}
+
+.Image_Coffe-Plant {
+  max-width: 100%;
+  height: 110%;
+  display: block;
+  object-fit: cover;
+  margin-top: auto;
+}
+
+.Flexbox_Content-DieHerkunf-Large {
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 10% 5% 0 5%;
+  height: 100vh;
+  margin: 0 0 10% 0;
+}
+
+.Imagebox_left-DieHerkunft {
+  width: 50%;
+  max-height: 100%;
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  padding: 5% 0 0 0;
+}
+
+.Textbox_right-DieHerkunft {
+  width: 40%;
+}
+
+.Image_Coffee-Worker {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  object-fit: contain;
+}
