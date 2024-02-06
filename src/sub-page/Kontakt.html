@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subpage</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <div class="Menu_Desktop">
+    <div class="Box_top-nav">
+      <nav class="Bar_top-nav">
+        <img src="../images/Logo Black.svg" alt="Logo" class="Logo_top-nav" />
+
+        <ul class="List_top-nav">
+          <li class="Item_top-nav">
+            <a href="DasCafe.html" class="Link_top-nav-black">
+              <span>das Café</span>
+            </a>
+          </li>
+          <li class="Item_top-nav">
+            <a href="DieHerkunft.html" class="Link_top-nav-black">
+              <span>Herkunft</span>
+            </a>
+          </li>
+          <li class="Item_top-nav">
+            <a href="Shop.html" class="Link_top-nav-black">
+              <span>Shop</span>
+            </a>
+          <li class="Item_top-nav">
+            <a href="Shop.html" class="Link_top-nav-black">
+              <img src="../images/Shop Icon Black.svg" alt="Cart" class="top-nav__icon" />
+            </a>
+          </li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="Menu_mobile-test">
+    <nav class="Menu_mobile">
+
+      <div class="Logo_top-nav_mobile">
+        <img src="../images/Logo Black.svg" alt="Logo" id="logoImg" />
+      </div>
+
+      <div class="Menu_toggle" onclick="toggleMenu()">
+        <img src="../images/Burger Menu Black.svg" alt="Menu" id="burgerImg" />
+      </div>
+
+      <div class="Menupunkte_mobile">
+        <ul class="List_top-nav-mobile">
+          <li class="Item_top-nav-mobile">
+            <a href="DasCafé.html" class="Link_top-nav-mobile">
+              <span>das Café</span>
+            </a>
+          </li>
+          <li class="Item_top-nav-mobile">
+            <a href="DieHerkunft.html" class="Link_top-nav-mobile">
+              <span>Herkunft</span>
+            </a>
+          </li>
+          <li class="Item_top-nav-mobile">
+            <a href="Shop.html" class="Link_top-nav-mobile">
+              <span>Shop</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="Menu_close" onclick="toggleMenu()">
+          <img src="../images/Burger Menu close.svg" alt="Close" />
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <main>
+    <div class="Flexbox_Kontakt">
+      <div class="Content_Kontakt">
+        <h2>Du hast Fragen? <br>Schreib uns gern!</h2>
+      </div>
+
+
+      <div class="Content_Kontakt">
+        <form action="#" method="post">
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" placeholder="Name" required>
+
+          <label for="email">E-Mail*</label>
+          <input type="email" id="email" name="email" placeholder="E-Mail" required>
+
+          <label for="phone">Telefonnummer*</label>
+          <input type="tel" id="phone" name="phone" placeholder="Telefonnummer">
+
+          
+          <select id="subject" name="subject" required>
+              <option value="" disabled selected>Wähle ein Betreff aus</option>
+              <option value="Anfrage">Anfrage</option>
+              <option value="Feedback">Feedback</option>
+              <option value="Sonstiges">Sonstiges</option>
+          </select>
+
+          <label for="message">Deine Nachricht*</label>
+          <textarea id="message" name="message" placeholder="Was hast du auf dem Herzen?" required></textarea>
+
+          <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+          <label class="checkbox-label" for="privacy-policy">Ich akzeptiere die <a id="privacy-policy-link" href="../sub-page/Impressum.html#Datenschutz">Datenschutzerklärung</a></label>
+
+          <br>
+          <button type="submit" id="submit-button">abschicken</button>
+      </form>
+
+      </div>
+
+      
+    </div>
+
+
+
+
+  </main>
+  {{>Footer-sub-page}}
+  <script src="../js/script.js"></script>
+  <script type="module" src="../js/index.js"></script>
+  <script type="module" src="../js/currentPage.js"></script>
+</body>
+
+</html>
