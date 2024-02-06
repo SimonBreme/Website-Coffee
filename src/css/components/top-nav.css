@@ -4,7 +4,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  z-index:1
+  z-index: 1;
 }
 
 .List_top-nav {
@@ -17,16 +17,14 @@
   padding: 40px;
   float: right;
   font-family: sans-serif;
- 
 }
 
 .Item_top-nav {
-  color:black;
+  color: black;
   text-align: center;
   display: inline;
   text-decoration: none;
   margin-right: 2vh;
-
 }
 
 .Logo_top-nav {
@@ -48,3 +46,14 @@
   text-decoration-line: underline;
 }
 
+.Link_top-nav-black {
+  color: #000000;
+  text-decoration: none;
+}
+.Link_top-nav-black:hover {
+  text-decoration-line: underline;
+}
+
+.Link_top-nav-black:active {
+  text-decoration-line: underline;
+}

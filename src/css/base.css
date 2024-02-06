@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   @media (max-width: 768px) {
     h1 {
       font-size: 64px;
@@ -21,7 +21,7 @@ body {
   }
 }
 
-header {
+.header {
   height: 65vh;
   background-image: url(../images/coffee.jpg);
   background-size: cover;
@@ -32,7 +32,7 @@ header {
   align-items: center;
 }
 
-main {
+.main {
   margin: 0 auto;
   max-width: 1440px;
 
@@ -45,7 +45,7 @@ main {
   }
 }
 
-Footer {
+.Footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -67,7 +67,7 @@ img {
   height: auto;
 }
 
-h1 {
+.h1 {
   font-family: Roboto, sans-serif;
   font-weight: var(--h1-font-weight);
   font-size: var(--h1-font-size);
@@ -80,7 +80,7 @@ h1 {
   }
 }
 
-h2 {
+.h2 {
   font-family: Roboto, sans-serif;
   font-weight: var(--h2-font-weight);
   font-size: var(--h2-font-size);
@@ -93,7 +93,7 @@ h2 {
   }
 }
 
-h3 {
+.h3 {
   font-family: Roboto, sans-serif;
   font-weight: var(--h3-font-weight);
   font-size: var(--h3-font-size);
@@ -106,7 +106,7 @@ h3 {
   }
 }
 
-body text {
+.body text {
   font-weight: var(--body-text-font-weight);
   font-size: var(--body-text-font-size);
   line-height: var(--body-text-line-height);
