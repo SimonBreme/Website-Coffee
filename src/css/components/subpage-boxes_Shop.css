@@ -1,0 +1,40 @@
+.Link_Black {
+  color: fff;
+}
+
+.Titel_Entdecke-Shop {
+  padding:10% 0 3% 1%;
+}
+
+
+.Flexbox_Shop {
+  position: relative;
+  height: auto;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.Flexbox_Costa-Rica-Shop {
+  display: flex;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+
+.Image_Costa-Rica-Shop {
+  padding: 5%;
+  filter: brightness(90%);
+}
+
+.Icons_Icon-line-shop {
+  
+  padding: 2% 0 0 5%;
+  @media (max-width: 768px) {
+    scale: 0.4;
+    padding: 0;
+    
+  }
+}
