@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subpage</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <div class="Menu_Desktop">
+    <div class="Box_top-nav">
+      <nav class="Bar_top-nav">
+        <img src="../images/Logo Black.svg" alt="Logo" class="Logo_top-nav" />
+
+        <ul class="List_top-nav">
+          <li class="Item_top-nav">
+            <a href="DasCafe.html" class="Link_top-nav-black">
+              <span>das Café</span>
+            </a>
+          </li>
+          <li class="Item_top-nav">
+            <a href="DieHerkunft.html" class="Link_top-nav-black">
+              <span>Herkunft</span>
+            </a>
+          </li>
+          <li class="Item_top-nav">
+            <a href="Shop.html" class="Link_top-nav-black">
+              <span>Shop</span>
+            </a>
+          <li class="Item_top-nav">
+            <a href="Shop.html" class="Link_top-nav-black">
+              <img src="../images/Shop Icon Black.svg" alt="Cart" class="top-nav__icon" />
+            </a>
+          </li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="Menu_mobile-test">
+    <nav class="Menu_mobile">
+
+      <div class="Logo_top-nav_mobile">
+        <img src="../images/Logo Black.svg" alt="Logo" id="logoImg" />
+      </div>
+
+      <div class="Menu_toggle" onclick="toggleMenu()">
+        <img src="../images/Burger Menu Black.svg" alt="Menu" id="burgerImg" />
+      </div>
+
+      <div class="Menupunkte_mobile">
+        <ul class="List_top-nav-mobile">
+          <li class="Item_top-nav-mobile">
+            <a href="DasCafé.html" class="Link_top-nav-mobile">
+              <span>das Café</span>
+            </a>
+          </li>
+          <li class="Item_top-nav-mobile">
+            <a href="DieHerkunft.html" class="Link_top-nav-mobile">
+              <span>Herkunft</span>
+            </a>
+          </li>
+          <li class="Item_top-nav-mobile">
+            <a href="Shop.html" class="Link_top-nav-mobile">
+              <span>Shop</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="Menu_close" onclick="toggleMenu()">
+          <img src="../images/Burger Menu close.svg" alt="Close" />
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <main>
+    <div class="Flexbox_Produkt">
+      <div class="Imagebox_Produkt">
+        <img src="../images/Coffee-Costa_Rica.jpg" alt="Coffee-Costa_Rica">
+      </div>
+      <div class="Flexbox_right">
+      <div class="Infobox_Produkt">
+        <h2>Costa Rica</h2>
+        <br>
+        <p>6,90€ – 26,90€</p>
+        <br>
+        <p>Costa Rica Filterkaffee ist äußerst ergiebig und hat praktisch keine Säure. Den Gaumen umschmeichelt ein vollmundiges Haselnussaroma. Gleich probieren!</p>
+      </div>
+      <div class="Flexbox_dropdown">
+        <div class="dropdown">
+          Wie viel Kaffee brauchst du?
+          <div class="dropdown-content">
+              <a href="#">250g gemahlen</a>
+              <a href="#">500g gemahlen</a>
+              <a href="#">250g Bohnen</a>
+              <a href="#">500g Bohnen</a>
+          </div>
+         
+      </div>
+      
+      <button class="cart-button" onclick="window.location.href='./Cart.html '">Warenkorb</button>
+
+        <div class="Costa_Rica__Icon-line-Produkt">
+          <div class="Single-Icon-line-Produkt">
+          <img src="../images/Icon Kaffee Bohnen Black.svg" alt="Kaffeebohnen" class="Icons_Icon-line-Produkt" />
+          <p>Mild</p>
+        </div>
+        <div class="Single-Icon-line-Produkt">
+          <img src="../images/Icon French Press Black.svg" alt="French Press" class="Icons_Icon-line-Produkt" />
+          <p>Für <br> Filterkaffee</p>
+        </div>
+        <div class="Single-Icon-line-Produkt">
+          <img src="../images/Icon Kaffee Schaufel Black.svg" alt="Kaffee Schaufel" class="Icons_Icon-line-Produkt" />
+          <p>gemahlen</p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+    <div class="Flexbox_Content-Center">
+      <div class="Textbox_center">
+        <h2 class="Titel_Bio-und-Fair">
+          Beschreibung
+        </h2>
+        <br />
+       <p>MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein
+          Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische
+          Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten
+          komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein
+          überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser
+          MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 /
+          Nicht-EU-Landwirtschaft. 
+        </p> 
+      </div>
+    </div>
+
+    <div class="Flexbox_Anthrazit">
+      <h2>Entdecke unsere</h2>
+      <h2 class="Titel_Entdecke-unsere-Kaffee-Sorten">Kaffee Sorten</h2>
+
+      <div class="Flexbox_Costa-Rica">
+        <div class="Flexbox_Single-Costa-Rica">
+          <img src="../images/Coffee-Costa_Rica.jpg" alt="Coffee-Costa_Rica" class="Image_Costa-Rica" />
+          <p class="Text_Costa-Rica">Costa Rica</p>
+          <p class="Price_Costa-Rica">6,90€ - 26,90€</p>
+          <div class="Costa_Rica__Icon-line">
+            <img src="../images/Icon Kaffee Bohnen.svg" alt="Kaffeebohnen" class="Icons_Icon-line" />
+            <img src="../images/Icon French Press.svg" alt="French Press" class="Icons_Icon-line" />
+            <img src="../images/Icon Kaffee Schaufel.svg" alt="Kaffee Schaufel" class="Icons_Icon-line" />
+          </div>
+        </div>
+
+        <div class="Flexbox_Single-Costa-Rica">
+          <img src="../images/Coffee-Costa_Rica.jpg" alt="Coffee-Costa_Rica" class="Image_Costa-Rica" />
+          <p class="Text_Costa-Rica">Äthiopien</p>
+          <p class="Price_Costa-Rica">6,90€ - 26,90€</p>
+          <div class="Costa_Rica__Icon-line">
+            <img src="../images/Icon Kaffee Bohnen.svg" alt="Kaffeebohnen" class="Icons_Icon-line" />
+            <img src="../images/Icon French Press.svg" alt="French Press" class="Icons_Icon-line" />
+            <img src="../images/Icon Kaffee Schaufel.svg" alt="Kaffee Schaufel" class="Icons_Icon-line" />
+          </div>
+        </div>
+
+        <div class="Flexbox_Single-Costa-Rica">
+          <img src="../images/Coffee-Costa_Rica.jpg" alt="Coffee-Costa_Rica" class="Image_Costa-Rica" />
+          <p class="Text_Costa-Rica">Costa Rica</p>
+          <p class="Price_Costa-Rica">6,90€ - 26,90€</p>
+          <div class="Costa_Rica__Icon-line">
+            <img src="../images/Icon Kaffee Bohnen.svg" alt="Kaffeebohnen" class="Icons_Icon-line" />
+            <img src="../images/Icon French Press.svg" alt="French Press" class="Icons_Icon-line" />
+            <img src="../images/Icon Kaffee Schaufel.svg" alt="Kaffee Schaufel" class="Icons_Icon-line" />
+          </div>
+        </div>
+
+        <div class="Flexbox_Single-Costa-Rica">
+          <img src="../images/Coffee-Costa_Rica.jpg" alt="Coffee-Costa_Rica" class="Image_Costa-Rica" />
+          <p class="Text_Costa-Rica">Äthiopien</p>
+          <p class="Price_Costa-Rica">6,90€ - 26,90€</p>
+          <div class="Costa_Rica__Icon-line">
+            <img src="../images/Icon Kaffee Bohnen.svg" alt="Kaffeebohnen" class="Icons_Icon-line" />
+            <img src="../images/Icon French Press.svg" alt="French Press" class="Icons_Icon-line" />
+            <img src="../images/Icon Kaffee Schaufel.svg" alt="Kaffee Schaufel" class="Icons_Icon-line" />
+          </div>
+        </div>
+      </div>
+      <a href="./sub-page/Shop.html" class="btn-white">Alle Produkte</a>
+    </div>
+
+
+  </main>
+  {{>Footer-sub-page}}
+  <script src="../js/script.js"></script>
+  <script type="module" src="../js/index.js"></script>
+  <script type="module" src="../js/currentPage.js"></script>
+</body>
+
+</html>

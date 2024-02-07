@@ -1,0 +1,116 @@
+.Flexbox_Produkt {
+display:flex;
+flex-decoration:row;
+padding: 5%;
+width: 100%;
+}
+
+.Imagebox_Produkt {
+max-width:50%;
+
+}
+
+.Flexbox_right {
+display:flex;
+flex-direction:column;
+
+}
+
+
+.Infobox_Produkt {
+display:inline-block;
+max-width:50%;
+float:left;
+padding-top:10%;
+
+}
+
+.Flexbox_dropdown {
+  padding:10% 0 0 0;
+}
+
+ /* Stile für das Dropdown-Menü */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z" /></svg>'),
+    linear-gradient(to right, black 95%, transparent 100%);
+  background-repeat: no-repeat;
+  background-position: right center;
+  
+  width:65%;
+}
+
+.dropdown-content {
+  display: none;
+  background:white;
+  position: absolute;
+  border-radius: 4px;
+  width:100%;
+  top:100%;
+  left:0;
+  z-index: 1;
+  border:2px solid black;
+  
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+  
+}
+.dropdown-content a:hover {
+  background-color:gray;
+  display: block;
+  
+}
+
+/* Stile für den Warenkorb-Button */
+.cart-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 20px;
+  cursor: pointer;
+  margin-left: px;
+  width:25%;
+}
+
+
+.Costa_Rica__Icon-line-Produkt {
+  padding-top: 35%;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  justify-content:flex-start;
+  
+  
+}
+
+.Icons_Icon-line-Produkt {
+  width: 50px; /* Neue Breite */
+  height: 50px; 
+  margin-bottom:10px;
+}
+
+.Single-Icon-line-Produkt {
+  display:inline-block;
+  margin-right:40px;
+  
+}
