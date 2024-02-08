@@ -1,66 +1,86 @@
 .Flexbox_Produkt {
-display:flex;
-flex-decoration:row;
-padding: 5%;
-width: 100%;
+  display: flex;
+  flex-decoration: row;
+  padding: 5%;
+  width: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .Imagebox_Produkt {
-max-width:50%;
-
+  max-width: 50%;
+  @media (max-width: 768px) {
+    width: 100%;
+    align-self: center;
+  }
 }
 
 .Flexbox_right {
-display:flex;
-flex-direction:column;
-
+  display: flex;
+  flex-direction: column;
 }
 
-
 .Infobox_Produkt {
-display:inline-block;
-max-width:50%;
-float:left;
-padding-top:10%;
-
+  display: inline-block;
+  max-width: 50%;
+  float: left;
+  padding-top: 10%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+    display: block;
+    align-self: center;
+    float: none;
+  }
 }
 
 .Flexbox_dropdown {
-  padding:10% 0 0 0;
+  padding: 10% 0 0 0;
+  @media (max-width: 768px) {
+    align-self: center;
+  }
 }
 
- /* Stile für das Dropdown-Menü */
- .dropdown {
+/* Stile für das Dropdown-Menü */
+.dropdown {
   position: relative;
   display: inline-block;
-  background-color: black;
-  color: white;
+  border: 2px solid black;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  white-space: nowrap; 
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z" /></svg>'),
-    linear-gradient(to right, black 95%, transparent 100%);
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><rect fill="black" width="24" height="24"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 40px;
   background-repeat: no-repeat;
   background-position: right center;
-  
-  width:65%;
+  width: 65%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.dropdown.open {
+  background-color: black; /* Hintergrundfarbe ändern, wenn das Menü geöffnet ist */
+  color: white; /* Textfarbe ändern, wenn das Menü geöffnet ist */
 }
 
 .dropdown-content {
   display: none;
-  background:white;
+  background: white;
   position: absolute;
   border-radius: 4px;
-  width:100%;
-  top:100%;
-  left:0;
+  width: 100%;
+  top: 100%;
+  left: 0;
   z-index: 1;
-  border:2px solid black;
-  
-  
+  border: 2px solid black;
+  @media (max-width: 768px) {
+  }
 }
 
 .dropdown-content a {
@@ -70,14 +90,11 @@ padding-top:10%;
   display: block;
 }
 
-.dropdown:hover .dropdown-content  {
+.dropdown:hover .dropdown-content {
   display: block;
-  
 }
 .dropdown-content a:hover {
-  background-color:gray;
-  display: block;
-  
+  background-color: gray;
 }
 
 /* Stile für den Warenkorb-Button */
@@ -89,28 +106,36 @@ padding-top:10%;
   padding: 11px 20px;
   cursor: pointer;
   margin-left: px;
-  width:25%;
+  width: 25%;
+  @media (max-width: 768px) {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+  }
 }
-
 
 .Costa_Rica__Icon-line-Produkt {
   padding-top: 35%;
-  display:flex;
-  flex-direction:row;
-  align-items:flex-start;
-  justify-content:flex-start;
-  
-  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  @media (max-width: 768px) {
+    justify-content: center;
+    display: block;
+  }
 }
 
 .Icons_Icon-line-Produkt {
   width: 50px; /* Neue Breite */
-  height: 50px; 
-  margin-bottom:10px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
 .Single-Icon-line-Produkt {
-  display:inline-block;
-  margin-right:40px;
-  
+  display: inline-block;
+  margin-right: 40px;
 }
