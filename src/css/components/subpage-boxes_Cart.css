@@ -1,0 +1,141 @@
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 999;
+}
+
+.cart-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 0);
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+}
+
+.Titel_Warenkorb {
+  padding:60px 20px 20px 20px;
+}
+
+
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.cart-summary p {
+  float:right;
+  padding-right:20px;
+  transform:translateY(-50px);
+  
+}
+
+.success-box {
+  background-color: #D7BE9D;
+  padding: 20px;
+  margin-top: 10px;
+  
+}
+
+.products-list {
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.totals {
+  color:white;
+  Background-color:#1A1A1A;
+  Padding:20px;
+ 
+}
+
+.totals div {
+  margin-bottom: 10px;
+}
+
+.totals .subtotal, .totals .shipping, .totals .total {
+  text-align: right;
+  float:right;
+  right:0px;
+  
+}
+
+.totals hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.divider {
+  border: none;
+  height: 10px;
+  width: 100%;
+  
+ 
+  
+}
+
+.Box_Button {
+  Background-color:#1A1A1A;
+  display:block;
+  padding:20px;
+}
+
+.checkout-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #D7BE9D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+}
+
+.checkout-button:hover {
+  background-color: black;
+  color:white;
+}
