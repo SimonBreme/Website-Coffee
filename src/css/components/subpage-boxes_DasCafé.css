@@ -1,8 +1,8 @@
 .sub-page-DasCafé {
-  height: 65vh;
+  min-height: 100vh;
   background-image: url(../images/Coffee-shop.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
   display: flex;
   justify-content: space-between;

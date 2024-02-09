@@ -12,7 +12,7 @@ function changeNavColor() {
   var iconElementMobile = document.querySelector(".Menu_toggle");
 
   // Höhe des Headers plus Padding
-  var headerHeight = window.innerHeight * 0.60;
+  var headerHeight = window.innerHeight * 0.90;
 
   // Überprüfe, ob der Scrollwert größer als die Höhe des Headers ist
   if (window.scrollY > headerHeight) {

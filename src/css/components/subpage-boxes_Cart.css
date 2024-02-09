@@ -146,10 +146,7 @@
   margin-bottom:20px;
 }
 
-.checkout-button:hover {
-  background-color: black;
-  color:white;
-}
+
 
 .close-button {
   position: absolute;

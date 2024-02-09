@@ -22,7 +22,7 @@
 }
 
 .header {
-  height: 65vh;
+  height: 100vh;
   background-image: url(../images/coffee.jpg);
   background-size: cover;
   background-position: top;

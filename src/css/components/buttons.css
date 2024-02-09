@@ -2,16 +2,11 @@
 .btn:visited {
   color: #ffffff;
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 20px;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: all 0.2s;
   position: relative;
-  translate: 0 150px;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-family: sans-serif;
 }
 
 .btn:hover {
@@ -53,6 +48,7 @@
 .btn-anthrazit {
   background-color: rgba(26, 26, 26, 0.8);
   color: rgba(26, 26, 26, 0.8);
+  translate: 0 150px;
 }
 
 .btn-anthrazit:after {
