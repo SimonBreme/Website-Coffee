@@ -19,15 +19,15 @@
             <a href="../sub-page/Shop.html" class="Link_top-nav">
               <span>Shop</span>
             </a>
-            </li>
-            <li class="Item_top-nav" id="Cart">
-              <a href="#" class="Link_top-nav">
-                <img
-                  src="images/Shop Icon White.svg"
-                  alt="Cart"
-                  class="top-nav__icon"
-                />
-              </a>
+          </li>
+          <li class="Item_top-nav" id="Cart">
+            <a href="#" class="Link_top-nav">
+              <img
+                src="images/Shop Icon White.svg"
+                alt="Cart"
+                class="top-nav__icon"
+              />
+            </a>
           </li>
         </ul>
       </nav>
@@ -37,11 +37,11 @@
     <nav class="Menu_mobile">
 
       <div class="Logo_top-nav_mobile">
-        <img src="../images/Logo.svg" alt="Logo" id="logoImg"/>
+        <img src="../images/Logo.svg" alt="Logo" id="logoImg" />
       </div>
 
       <div class="Menu_toggle" onclick="toggleMenu()">
-        <img src="../images/Burger Menu.svg" alt="Menu" id="burgerImg"/>
+        <img src="../images/Burger Menu.svg" alt="Menu" id="burgerImg" />
       </div>
 
       <div class="Menupunkte_mobile">
@@ -77,32 +77,42 @@
       <span class="heading-primary-sub">Bio und Fair seit 1991</span>
     </h1>
 
-    <a href="../sub-page/Shop.html" class="btn btn-anthrazit btn-animated">zum Shop</a>
+    <a href="../sub-page/Shop.html" class="btn btn-anthrazit btn-animated">zum
+      Shop</a>
   </div>
-  
-  
-
 
   <div id="overlay" class="overlay">
     <div class="cart-content">
+       <span class="close-button"><img src="../images/Burger Menu close Black.svg" alt="Close"></span>
       <h3 class="Titel_Warenkorb">Warenkorb</h3>
       <div class="cart-summary">
         <p><span id="total-items">0</span> Produkte</p>
-        <div class="success-box">Produkt(e) wurde(n) erfolgreich zum Warenkorb hinzugefügt.</div>
+        <div class="success-box">Produkt(e) wurde(n) erfolgreich zum Warenkorb
+          hinzugefügt.</div>
       </div>
       <div class="products-list">
         <!-- Produkte werden hier eingefügt -->
       </div>
       <div class="totals">
-        <div>Zwischensumme: <span id="subtotal">0€</span></div>
-        <div>Versandkosten: 3,9€</div>
-        <hr class="divider">
-        <div>Gesamtbetrag: <span id="total">0€</span></div>
+        <div>
+          <span class="left">Zwischensumme:</span>
+          <span class="right"><span id="subtotal">0 €</span></span>
+        </div>
+        <div>
+          <span class="left">Versandkosten:</span>
+          <span class="right">3,9 €</span>
+        </div>
+        <hr class="divider" />
+        <div>
+          <span class="left">Gesamtbetrag:</span>
+          <span class="right"><span id="total">0 €</span></span>
+        </div>
       </div>
       <div class="Box_Button">
-      <button class="checkout-button">Zur Kasse</button>
+        <button class="checkout-button">Zur Kasse</button>
       </div>
     </div>
   </div>
-<script src="../js/cart.js"></script>
+  
+  <script src="../js/cart.js"></script>
 </header>

@@ -85,6 +85,8 @@
   color:white;
   Background-color:#1A1A1A;
   Padding:20px;
+  display: flex;
+  flex-direction: column;
  
 }
 
@@ -107,6 +109,15 @@
   width: 100%;
 }
 
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  float:right;
+}
+
 .divider {
   border: none;
   height: 10px;
@@ -119,7 +130,7 @@
 .Box_Button {
   Background-color:#1A1A1A;
   display:block;
-  padding:20px;
+  padding:10px;
 }
 
 .checkout-button {
@@ -138,4 +149,21 @@
 .checkout-button:hover {
   background-color: black;
   color:white;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+.close-button img {
+  width: 24px; 
+  height: 24px; 
+}
+
+.close-button:hover img {
+  filter: brightness(1.8); 
 }

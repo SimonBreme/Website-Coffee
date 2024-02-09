@@ -29,11 +29,15 @@
             <a href="Shop.html" class="Link_top-nav-black">
               <span>Shop</span>
             </a>
-          <li class="Item_top-nav">
-            <a href="Shop.html" class="Link_top-nav-black">
-              <img src="../images/Shop Icon Black.svg" alt="Cart" class="top-nav__icon" />
-            </a>
-          </li>
+            <li class="Item_top-nav" id="Cart">
+              <a href="#" class="Link_top-nav">
+                <img
+                  src="../images/Shop Icon Black.svg"
+                  alt="Cart"
+                  class="top-nav__icon"
+                />
+              </a>
+            </li>
           </li>
         </ul>
       </nav>
@@ -76,7 +80,38 @@
       </div>
     </nav>
   </div>
-
+  <div id="overlay" class="overlay">
+    <div class="cart-content">
+      <h3 class="Titel_Warenkorb">Warenkorb</h3>
+      <div class="cart-summary">
+        <p><span id="total-items">0</span> Produkte</p>
+        <div class="success-box">Produkt(e) wurde(n) erfolgreich zum Warenkorb
+          hinzugefügt.</div>
+      </div>
+      <div class="products-list">
+        <!-- Produkte werden hier eingefügt -->
+      </div>
+      <div class="totals">
+        <div>
+          <span class="left">Zwischensumme:</span>
+          <span class="right"><span id="subtotal">0 €</span></span>
+        </div>
+        <div>
+          <span class="left">Versandkosten:</span>
+          <span class="right">3,9 €</span>
+        </div>
+        <hr class="divider" />
+        <div>
+          <span class="left">Gesamtbetrag:</span>
+          <span class="right"><span id="total">0 €</span></span>
+        </div>
+      </div>
+      <div class="Box_Button">
+        <button class="checkout-button">Zur Kasse</button>
+      </div>
+    </div>
+  </div>
+  <script src="../js/cart.js"></script>
 
   <main>
     <div class="Flexbox_Shop">
