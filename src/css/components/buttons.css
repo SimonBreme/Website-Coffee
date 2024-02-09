@@ -15,7 +15,7 @@
 }
 
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(26, 26, 26, 0.8);
 }
 
@@ -71,6 +71,8 @@
   align-self: center;
   margin: 5%;
 }
+
+
 
 @media (max-width: 768px) {
   .btn-white {
