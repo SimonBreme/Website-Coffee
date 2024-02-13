@@ -84,13 +84,17 @@
   </div>
   <div id="overlay" class="overlay">
     <div class="cart-content">
+      <span class="close-button"><img
+        src="../images/Burger Menu close Black.svg"
+        alt="Close"
+      /></span>
       <h3 class="Titel_Warenkorb">Warenkorb</h3>
       <div class="cart-summary">
         <p><span id="total-items">0</span> Produkte</p>
         <div class="success-box">Produkt(e) wurde(n) erfolgreich zum Warenkorb
           hinzugefügt.</div>
       </div>
-      <div class="products-list">
+      <div id="cart" class="products-list">
         <!-- Produkte werden hier eingefügt -->
       </div>
       <div class="totals">
@@ -143,6 +147,7 @@
                 alt="Kaffee Schaufel"
                 class="Icons_Icon-line-shop"
               />
+              <button onclick="addToCart('Costa Rica', '6,90€ - 26,90€')">In den Warenkorb</button>
             </div>
           </div>
 
@@ -358,6 +363,7 @@
   <script src="../js/toggleMenu.js"></script>
   <script type="module" src="../js/currentPage.js"></script>
   <script src="../js/cart.js"></script>
+  <script src="../js/Products.js"></script>
 </body>
 
 </html>
