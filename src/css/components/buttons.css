@@ -2,11 +2,14 @@
 .btn:visited {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 35px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: all 0.2s;
   position: relative;
+  @media (max-width: 768px) {
+    padding: 10px 25px;
+  }
 }
 
 .btn:hover {
@@ -49,6 +52,9 @@
   background-color: rgba(26, 26, 26, 0.8);
   color: rgba(26, 26, 26, 0.8);
   translate: 0 150px;
+  @media (max-width: 768px) {
+    translate: 0 100px;
+  }
 }
 
 .btn-anthrazit:after {
@@ -68,13 +74,9 @@
   margin: 5%;
 }
 
-
-
 @media (max-width: 768px) {
   .btn-white {
-    scale: 1.5;
     outline-width: 2px;
-    padding: 5px 30px 5px 30px;
   }
 }
 
@@ -92,27 +94,18 @@
   color: #ffffff;
   background-color: rgba(26, 26, 26, 1);
   text-decoration: none;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 35px;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 4px;
   transition: all 0.2s;
   position: relative;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-family: sans-serif;
-}
-
-@media (max-width: 768px) {
-  .btn_zum-Shop {
+  @media (max-width: 768px) {
     align-self: center;
     justify-self: center;
     order: 2;
     margin: auto;
     transform: translateY(80px);
     display: inline-block;
-    width: 35%;
-    height: auto%;
     text-align: center;
   }
 }

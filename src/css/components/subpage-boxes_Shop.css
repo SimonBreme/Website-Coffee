@@ -3,9 +3,8 @@
 }
 
 .Titel_Entdecke-Shop {
-  padding:15% 0 3% 1%;
+  padding: 15% 0 3% 1%;
 }
-
 
 .Flexbox_Shop {
   position: relative;
@@ -30,11 +29,9 @@
 }
 
 .Icons_Icon-line-shop {
-  
   padding: 2% 0 0 5%;
   @media (max-width: 768px) {
     scale: 0.4;
     padding: 0;
-    
   }
 }

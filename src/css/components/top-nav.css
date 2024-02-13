@@ -60,11 +60,10 @@
 
 .Item_top-nav.current-page {
   text-decoration: underline;
-  color:blue;
+  color: blue;
 }
 
 .Link_top-nav.current-page {
   text-decoration: underline;
-  color:red;
+  color: red;
 }
-

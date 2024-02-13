@@ -40,8 +40,8 @@
   flex-direction: row;
   padding: 5%;
   box-sizing: border-box;
-  @media (max-width: 768px){
-    display:none;
+  @media (max-width: 768px) {
+    display: none;
   }
 }
 
@@ -51,16 +51,13 @@
   flex-direction: row;
   padding: 5%;
   box-sizing: border-box;
-  width:100%;
-  justify-content:flex-start;
+  width: 100%;
+  justify-content: flex-start;
 
-  @media (min-width: 769px){
-    display:none;
+  @media (min-width: 769px) {
+    display: none;
   }
 }
-
-
- 
 
 @media (max-width: 768px) {
   .Flexbox_Imagebox-mobile {
@@ -78,7 +75,6 @@
   width: 100%;
   @media (max-width: 768px) {
     flex-direction: column;
-    
   }
 }
 

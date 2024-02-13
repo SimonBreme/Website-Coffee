@@ -1,15 +1,13 @@
 .Link_Black {
-    color:fff;
+  color: fff;
 }
 
-
 .Flexbox_Impressum {
-display:flex;
-flex-direction: column;
-padding: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 15%;
 }
 
 .Content_Impressum {
-padding: 5% 0 0 0;
+  padding: 5% 0 0 0;
 }
-

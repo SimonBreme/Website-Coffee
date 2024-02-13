@@ -19,7 +19,6 @@
   max-width: 400px;
 }
 
-
 .close-button {
   position: absolute;
   top: 10px;
@@ -30,26 +29,23 @@
 }
 
 .Titel_Warenkorb {
-  padding:60px 20px 20px 20px;
+  padding: 60px 20px 20px 20px;
 }
-
 
 .cart-summary {
   margin-bottom: 20px;
 }
 
 .cart-summary p {
-  float:right;
-  padding-right:20px;
-  transform:translateY(-50px);
-  
+  float: right;
+  padding-right: 20px;
+  transform: translateY(-50px);
 }
 
 .success-box {
-  background-color: #D7BE9D;
+  background-color: #d7be9d;
   padding: 20px;
   margin-top: 10px;
-  
 }
 
 .products-list {
@@ -82,23 +78,23 @@
 }
 
 .totals {
-  color:white;
-  Background-color:#1A1A1A;
-  Padding:20px;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 20px;
   display: flex;
   flex-direction: column;
- 
 }
 
 .totals div {
   margin-bottom: 10px;
 }
 
-.totals .subtotal, .totals .shipping, .totals .total {
+.totals .subtotal,
+.totals .shipping,
+.totals .total {
   text-align: right;
-  float:right;
-  right:0px;
-  
+  float: right;
+  right: 0px;
 }
 
 .totals hr {
@@ -115,52 +111,47 @@
 
 .right {
   flex: 1;
-  float:right;
+  float: right;
 }
 
 .divider {
   border: none;
   height: 10px;
   width: 100%;
-  
- 
-  
 }
 
 .Box_Button {
-  Background-color:#1A1A1A;
-  display:block;
-  padding:10px;
+  background-color: #1a1a1a;
+  display: block;
+  padding: 10px;
 }
 
 .checkout-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #D7BE9D;
+  background-color: #d7be9d;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-
-
 
 .close-button {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .close-button img {
-  width: 24px; 
-  height: 24px; 
+  width: 24px;
+  height: 24px;
 }
 
 .close-button:hover img {
-  filter: brightness(1.8); 
+  filter: brightness(1.8);
 }
