@@ -109,3 +109,30 @@
     text-align: center;
   }
 }
+
+.btn-add-to-cart {
+  transform:translateY(-100px);
+  padding:5px;
+  border-radius:4px;
+  background-color:white;
+  margin-left:15px;
+ outline:none;
+ border:none;
+
+}
+
+.btn-add-to-cart:hover {
+  transform:translateY(-100px);
+  padding:5px;
+  border-radius:4px;
+  background-color:black;
+  color:white;
+
+
+}
+
+
+  transform:translateY(-100px);
+  padding:5px;
+  border-radius:4px;
+ 
